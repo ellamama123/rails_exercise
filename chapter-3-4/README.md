@@ -1,9 +1,9 @@
 Exercise 
 
-** 3.1. **
+**3.1.**
 Can't deploy now
 
-** 3.2. **
+**3.2.**
 1. Generate a controller called Foo with actions bar and baz.
 
 ```
@@ -16,7 +16,7 @@ $ rails g controller FooController bar baz
 $ rails d controller FooController bar baz
 ```
 
-** 3.3. **
+**3.3.**
 1.Make a Contact page for the sample app.15 Following the model in Listing 3.16, first write a test for the existence of a page at the URL /static_pages/contact by testing for the title “Contact | Ruby on Rails Tutorial
 Sample App”. Get your test to pass by following the same steps as when
 making the About page in Section 3.3.3, including filling the Contact
@@ -24,7 +24,7 @@ page with the content from Listing 3.41.
 
 - Code on folder /app/views/static_pages/contact.html.erb
 
-** 4.2. **
+**4.2.**
 1. Assign variables city and state to your current city and state of residence. (If residing outside the U.S., substitute the analogous quantities.)
 
 ```
@@ -52,7 +52,7 @@ previous exercise?
 
 - The result is '#{city}\t#{state}'
 
-** 4.3. **
+**4.3.**
 
 1. What is the length of the string “racecar”?
 
@@ -91,7 +91,7 @@ Use up-arrow to retrieve and edit previous commands
 ```
 
 
-** 4.4. **
+**4.4.**
 
 1. By replacing FILL_IN with the appropriate comparison test shown in
 Listing 4.10, define a method for testing palindromes. Hint: Use the
@@ -129,7 +129,7 @@ prints its responses instead of returning them.
 => true
 ```
 
-** 4.5. **
+**4.5.**
 
 1. Assign a to be to the result of splitting the string “A man, a plan, a canal,
 Panama” on comma-space.
@@ -170,7 +170,7 @@ Panama” on comma-space.
 => "s"
 ```
 
-** 4.6. **
+**4.6.**
 
 1. Using the range 0..16, print out the first 17 powers of 2.
 
@@ -228,7 +228,7 @@ shuffles the letters in a given string.
 => string_shuffle("foobar")
 ```
 
-** 4.7. **
+**4.7.**
 
 1. Define a hash with the keys 'one', 'two', and 'three', and the values 'uno', 'dos', and 'tres'. Iterate over the hash, and for each key/value pair print out "'#{key}' in Spanish is '#{value}'".
 
