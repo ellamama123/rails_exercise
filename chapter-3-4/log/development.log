@@ -1,0 +1,225 @@
+Started GET "/" for 127.0.0.1 at 2024-01-03 14:02:01 +0700
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /opt/homebrew/lib/ruby/gems/3.2.0/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /opt/homebrew/lib/ruby/gems/3.2.0/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 375)
+Completed 200 OK in 23ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 7874)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2024-01-03 14:06:41 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 96)
+  Rendered layout layouts/application.html.erb (Duration: 319.2ms | Allocations: 100375)
+Completed 200 OK in 322ms (Views: 321.1ms | ActiveRecord: 0.0ms | Allocations: 101300)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2024-01-03 14:12:53 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 41.4ms | Allocations: 16114)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.0ms | Allocations: 17022)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2024-01-03 14:12:57 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.0ms | Allocations: 98)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2222)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 2529)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2024-01-03 14:21:07 +0700
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb
+  Rendered static_pages/about.html.erb (Duration: 0.3ms | Allocations: 103)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 1138)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2024-01-03 14:34:31 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/contact"):
+  
+Started GET "/static_pages/contact" for 127.0.0.1 at 2024-01-03 14:35:09 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/contact"):
+  
+Started GET "/static_pages/contact" for 127.0.0.1 at 2024-01-03 14:35:11 +0700
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.2ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 13698)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 14600)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2024-01-03 14:35:12 +0700
+Started GET "/static_pages/contact" for 127.0.0.1 at 2024-01-03 14:35:12 +0700
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.1ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2336)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 2592)
+
+
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2146)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2388)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2024-01-03 14:37:12 +0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2024-01-03 14:37:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-03 14:37:27 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 13682)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 14583)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-03 14:37:27 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 2141)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 2384)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-03 15:02:53 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2132)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 3030)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<ActionView::Base:0x000000000200f8>):
+     5:   <%= csp_meta_tag %>
+     6:   <%= stylesheet_link_tag 'application', media: 'all',
+     7:   'data-turbolinks-track': 'reload' %>
+     8:   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9: </head>
+    10: <body>
+    11:   <%= yield %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2024-01-03 15:03:02 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2140)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3020)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<ActionView::Base:0x00000000023a78>):
+     5:   <%= csp_meta_tag %>
+     6:   <%= stylesheet_link_tag 'application', media: 'all',
+     7:   'data-turbolinks-track': 'reload' %>
+     8:   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9: </head>
+    10: <body>
+    11:   <%= yield %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2024-01-03 15:03:04 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1797)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2020)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<ActionView::Base:0x00000000023d48>):
+     5:   <%= csp_meta_tag %>
+     6:   <%= stylesheet_link_tag 'application', media: 'all',
+     7:   'data-turbolinks-track': 'reload' %>
+     8:   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9: </head>
+    10: <body>
+    11:   <%= yield %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2024-01-03 15:03:19 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2413)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3296)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<ActionView::Base:0x000000000276c8>):
+     6:   <%= csp_meta_tag %>
+     7:   <%= stylesheet_link_tag 'application', media: 'all',
+     8:   'data-turbolinks-track': 'reload' %>
+     9:   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: </head>
+    11: <body>
+    12: <%= yield %>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2024-01-03 15:03:20 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2029)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2252)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<ActionView::Base:0x00000000027998>):
+     6:   <%= csp_meta_tag %>
+     7:   <%= stylesheet_link_tag 'application', media: 'all',
+     8:   'data-turbolinks-track': 'reload' %>
+     9:   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: </head>
+    11: <body>
+    12: <%= yield %>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2024-01-03 15:03:26 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 13659)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 14564)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-03 15:03:58 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 13475)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 14377)
+
+
