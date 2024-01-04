@@ -223,3 +223,571 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 14377)
 
 
+Started GET "/" for ::1 at 2024-01-04 10:19:46 +0700
+  
+LoadError (cannot load such file -- /Users/nguyendinhchien/Desktop/project/chapter-3/config/routes.rb):
+  
+railties (7.1.2) lib/rails/application/routes_reloader.rb:50:in `load'
+railties (7.1.2) lib/rails/application/routes_reloader.rb:50:in `block in load_paths'
+railties (7.1.2) lib/rails/application/routes_reloader.rb:50:in `each'
+railties (7.1.2) lib/rails/application/routes_reloader.rb:50:in `load_paths'
+railties (7.1.2) lib/rails/application/routes_reloader.rb:24:in `reload!'
+railties (7.1.2) lib/rails/application/routes_reloader.rb:38:in `block in updater'
+activesupport (7.1.2) lib/active_support/file_update_checker.rb:85:in `execute'
+railties (7.1.2) lib/rails/application/routes_reloader.rb:13:in `execute'
+railties (7.1.2) lib/rails/application/finisher.rb:174:in `block (2 levels) in <module:Finisher>'
+activesupport (7.1.2) lib/active_support/callbacks.rb:448:in `instance_exec'
+activesupport (7.1.2) lib/active_support/callbacks.rb:448:in `block in make_lambda'
+activesupport (7.1.2) lib/active_support/callbacks.rb:202:in `block (2 levels) in halting'
+activesupport (7.1.2) lib/active_support/callbacks.rb:707:in `block (2 levels) in default_terminator'
+activesupport (7.1.2) lib/active_support/callbacks.rb:706:in `catch'
+activesupport (7.1.2) lib/active_support/callbacks.rb:706:in `block in default_terminator'
+activesupport (7.1.2) lib/active_support/callbacks.rb:203:in `block in halting'
+activesupport (7.1.2) lib/active_support/callbacks.rb:598:in `block in invoke_before'
+activesupport (7.1.2) lib/active_support/callbacks.rb:598:in `each'
+activesupport (7.1.2) lib/active_support/callbacks.rb:598:in `invoke_before'
+activesupport (7.1.2) lib/active_support/callbacks.rb:109:in `run_callbacks'
+activesupport (7.1.2) lib/active_support/execution_wrapper.rb:129:in `run'
+activesupport (7.1.2) lib/active_support/execution_wrapper.rb:125:in `run!'
+activesupport (7.1.2) lib/active_support/reloader.rb:122:in `run!'
+activesupport (7.1.2) lib/active_support/execution_wrapper.rb:78:in `block in run!'
+<internal:kernel>:90:in `tap'
+activesupport (7.1.2) lib/active_support/execution_wrapper.rb:75:in `run!'
+activesupport (7.1.2) lib/active_support/reloader.rb:64:in `run!'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.8) lib/rack/method_override.rb:28:in `call'
+rack (3.0.8) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.2) lib/rails/engine.rb:529:in `call'
+puma (6.4.1) lib/puma/configuration.rb:272:in `call'
+puma (6.4.1) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.1) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.1) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.1) lib/puma/server.rb:464:in `process_client'
+puma (6.4.1) lib/puma/server.rb:245:in `block in run'
+puma (6.4.1) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for ::1 at 2024-01-04 10:19:49 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for ::1 at 2024-01-04 10:19:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for ::1 at 2024-01-04 10:21:48 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 190)
+  Rendered layout layouts/application.html.erb (Duration: 74.6ms | Allocations: 23739)
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 0.0ms | Allocations: 27820)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<ActionView::Base:0x0000000000aeb0>):
+     6:   <%= csp_meta_tag %>
+     7:   <%= stylesheet_link_tag 'application', media: 'all',
+     8:   'data-turbolinks-track': 'reload' %>
+     9:   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10: <!--[if lt IE 9]>
+    11: <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    12: </script>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2024-01-04 10:32:58 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 1553)
+Completed 200 OK in 16ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 2497)
+
+
+Started GET "/" for ::1 at 2024-01-04 10:33:11 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2607)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 3508)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-04 13:57:21 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 225)
+  Rendered layout layouts/application.html.erb (Duration: 1330.7ms | Allocations: 107574)
+Completed 200 OK in 1388ms (Views: 1345.1ms | ActiveRecord: 0.0ms | Allocations: 117382)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-04 13:59:50 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2026)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3339)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/rails.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-04 14:00:02 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 147)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2024)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3330)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/rails-%3Clong%20string%3E.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-04 14:03:30 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2190)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2275)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3575)
+
+
+  
+ActionView::Template::Error (The asset "kitten.png" is not present in the asset pipeline.
+):
+    5: sample application.
+    6: </p>
+    7: 
+    8: <%= image_tag("kitten.png", alt: "Kitten") %>
+  
+app/views/static_pages/home.html.erb:8
+Started GET "/" for 127.0.0.1 at 2024-01-04 14:03:43 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 41.4ms | Allocations: 24532)
+  Rendered layout layouts/application.html.erb (Duration: 47.3ms | Allocations: 26161)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.0ms | Allocations: 27467)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-04 14:12:42 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1646.5ms | Allocations: 224653)
+  Rendered layout layouts/application.html.erb (Duration: 1658.5ms | Allocations: 232669)
+Completed 200 OK in 1668ms (Views: 1661.9ms | ActiveRecord: 0.0ms | Allocations: 239548)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-04 14:13:44 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 898)
+  Rendered layout layouts/application.html.erb (Duration: 446.6ms | Allocations: 56246)
+Completed 200 OK in 450ms (Views: 448.7ms | ActiveRecord: 0.0ms | Allocations: 57561)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-04 14:14:02 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 898)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 6375)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 7683)
+
+
+Started GET "/" for 127.0.0.1 at 2024-01-04 14:14:17 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 902)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 6406)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 7721)
+
+
+Started GET "/" for ::1 at 2024-01-04 14:19:37 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 898)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 8876)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 10181)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_shim with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/nguyendinhchien/Desktop/project/chapter-3-4/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/turbo-rails-1.5.0/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/actiontext-7.1.2/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/actionmailbox-7.1.2/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               action_text/attachables/missing_attachable
+               action_text/attachment_galleries/attachment_gallery
+               active_storage/blobs/blob
+               action_text/attachables/remote_image
+               action_text/contents/content):
+     7:   <%= stylesheet_link_tag 'application', media: 'all',
+     8:   'data-turbolinks-track': 'reload' %>
+     9:   <%# <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %> 
+    10:   <%= render 'layouts/shim' %>
+    11: </head>
+    12: <body>
+    13:   <%= render 'layouts/header' %>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 127.0.0.1 at 2024-01-04 14:20:10 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 900)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 111)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 8245)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 9527)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/nguyendinhchien/Desktop/project/chapter-3-4/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/turbo-rails-1.5.0/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/actiontext-7.1.2/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/actionmailbox-7.1.2/app/views"
+
+Did you mean?  layouts/shim
+               layouts/action_text/contents/content
+               active_storage/blobs/blob
+               action_text/attachables/remote_image
+               action_text/attachables/content_attachment
+               action_text/contents/content):
+    10:   <%= render 'layouts/shim' %>
+    11: </head>
+    12: <body>
+    13:   <%= render 'layouts/header' %>
+    14:   <div class="container">
+    15:     <%= yield %>
+    16:   </div>
+  
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2024-01-04 14:22:44 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 900)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 110)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 267)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 515.2ms | Allocations: 57684)
+Completed 200 OK in 519ms (Views: 516.7ms | ActiveRecord: 0.0ms | Allocations: 58989)
+
+
+Started GET "/" for ::1 at 2024-01-04 14:48:26 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.9ms | Allocations: 896)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3079)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 4360)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_rails_default with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/nguyendinhchien/Desktop/project/chapter-3-4/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/turbo-rails-1.5.0/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/actiontext-7.1.2/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/actionmailbox-7.1.2/app/views"
+
+Did you mean?  layouts/header
+               layouts/shim
+               layouts/footer
+               layouts/action_text/contents/content
+               active_storage/blobs/blob
+               action_text/attachables/remote_image):
+    2: <html>
+    3: <head>
+    4: <title><%= full_title(yield(:title)) %></title>
+    5: <%= render 'layouts/rails_default' %>
+    6: <%= render 'layouts/shim' %>
+    7: </head>
+    8: <body>
+  
+app/views/layouts/application.html.erb:5
+Started GET "/" for ::1 at 2024-01-04 14:48:42 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 902)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 110)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 263)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 188)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2159)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 3470)
+
+
+Started GET "/" for ::1 at 2024-01-04 14:55:04 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.8ms | Allocations: 896)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3089)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4370)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_rails_default with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/nguyendinhchien/Desktop/project/chapter-3-4/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/turbo-rails-1.5.0/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/actiontext-7.1.2/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/actionmailbox-7.1.2/app/views"
+
+Did you mean?  layouts/header
+               layouts/shim
+               layouts/footer
+               layouts/action_text/contents/content
+               active_storage/blobs/blob
+               action_text/attachables/remote_image):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= render 'layouts/rails_default' %>
+    6:   <%= render 'layouts/shim' %>
+    7: </head>
+    8: <body>
+  
+app/views/layouts/application.html.erb:5
+Started GET "/" for ::1 at 2024-01-04 14:55:21 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 900)
+  Rendered layouts/_rails_default.html.erb (Duration: 1.1ms | Allocations: 530)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 263)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 188)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2802)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/" for ::1 at 2024-01-04 15:11:33 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 289.4ms | Allocations: 79849)
+  Rendered layouts/_rails_default.html.erb (Duration: 7.6ms | Allocations: 2840)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 144)
+  Rendered layouts/_header.html.erb (Duration: 10.6ms | Allocations: 5512)
+  Rendered layout layouts/application.html.erb (Duration: 310.4ms | Allocations: 89272)
+Completed 500 Internal Server Error in 322ms (ActiveRecord: 0.0ms | Allocations: 96092)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `helf_path' for #<ActionView::Base:0x0000000000b8b0>
+Did you mean?  help_path):
+    4:         <nav>
+    5:             <ul class="nav navbar-nav navbar-right">
+    6:                 <li><%= link_to "Home", root_path %></li>
+    7:                 <li><%= link_to "Help", helf_path %></li>
+    8:                 <li><%= link_to "Log in", '#' %></li>
+    9:             </ul>
+   10:         </nav>
+  
+app/views/layouts/_header.html.erb:7
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2024-01-04 15:12:06 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 905)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.7ms | Allocations: 534)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 322)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 211)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2892)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4236)
+
+
+Started GET "/help" for ::1 at 2024-01-04 15:12:07 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 153)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.6ms | Allocations: 299)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 89)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 917)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 1300)
+
+
+Started GET "/help" for ::1 at 2024-01-04 15:26:06 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.2ms | Allocations: 273)
+  Rendered layouts/_rails_default.html.erb (Duration: 4.4ms | Allocations: 2887)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 144)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 386)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 211)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 4860)
+Completed 200 OK in 18ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 11726)
+
+
+Started GET "/help" for ::1 at 2024-01-04 15:26:07 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.7ms | Allocations: 408)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 910)
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 1269)
+
+
+Started GET "/help" for ::1 at 2024-01-04 15:26:13 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layouts/_rails_default.html.erb (Duration: 1.1ms | Allocations: 305)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 89)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 778)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 1083)
+
+
+Started GET "/" for ::1 at 2024-01-04 15:26:16 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 200.3ms | Allocations: 54795)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.4ms | Allocations: 398)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 201.6ms | Allocations: 55671)
+Completed 200 OK in 203ms (Views: 202.1ms | ActiveRecord: 0.0ms | Allocations: 56086)
+
+
+Started GET "/" for ::1 at 2024-01-04 15:30:35 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1020)
+  Rendered layouts/_rails_default.html.erb (Duration: 2.7ms | Allocations: 541)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 269)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2953)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 4267)
+
+
+Started GET "/signup" for ::1 at 2024-01-04 15:30:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+Started GET "/users/new" for ::1 at 2024-01-04 15:30:51 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 146)
+  Rendered layouts/_rails_default.html.erb (Duration: 1.2ms | Allocations: 415)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_header.html.erb (Duration: 3.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 1048)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 1593)
+
+
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::InternalMetadata Create (1.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('environment', 'development', '2024-01-04 08:50:48.644044', '2024-01-04 08:50:48.644047') RETURNING "key"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20240104085015)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240104085015') RETURNING "version"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20240104085015)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mDROP TABLE "users"[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.0ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20240104085015'[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20240104085015)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240104085015') RETURNING "version"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (8.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", "Michael Hartl"], ["email", "michael@example.com"], ["created_at", "2024-01-04 09:20:03.179740"], ["updated_at", "2024-01-04 09:20:03.179740"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "Michael Hartl"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "Michael Hartl"], ["LIMIT", 1]]
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (6.5ms)[0m  [1m[33mUPDATE "users" SET "name" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["name", "dinh chien"], ["updated_at", "2024-01-04 09:30:49.262755"], ["id", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (1.3ms)[0m  [1m[33mUPDATE "users" SET "email" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["email", "nguyendinhchienpc@example.com"], ["updated_at", "2024-01-04 09:32:21.928722"], ["id", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "created_at" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["created_at", "2023-01-04 09:32:52.137795"], ["updated_at", "2024-01-04 09:32:59.972820"], ["id", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddIndexToUsersEmail (20240104095900)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240104095900') RETURNING "version"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
