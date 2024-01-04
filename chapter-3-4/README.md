@@ -838,7 +838,6 @@ user = User.new(name: "a" * 51, email: "a" * 244 + "@example.com")
 >> user.errors.full_messages
 => ["Name is too long (maximum is 50 characters)", "Email is too long (maximum is 255 characters)"]
 ```
-
 **6.2.5**
 
 
