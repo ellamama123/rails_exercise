@@ -838,6 +838,260 @@ user = User.new(name: "a" * 51, email: "a" * 244 + "@example.com")
 >> user.errors.full_messages
 => ["Name is too long (maximum is 50 characters)", "Email is too long (maximum is 255 characters)"]
 ```
-**6.2.5**
+**6.3.2**
 
+1. Confirm that a user with valid name and email still isn’t valid overall.
+
+```bash
+>> user = User.new(name: "Example User", email: "user@example.com")
+=> #<User:0x000000013cf31fc8
+...
+>>user.valid?
+=> User Exists? (0.5ms)  SELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?  [["email", "user@example.com"], ["LIMIT", 1]]
+```
+=> false
+
+2. What are the error messages for a user with no password?
+
+```bash
+>> user.errors.full_messages
+=> ["Password can't be blank"]
+```
+
+**6.3.3**
+
+1. Confirm that a user with valid name and email but a too-short password isn’t valid.
+
+```bash
+>> user = User.new(name: "Example User 1", email: "user1@example.com",password: "a" * 5, password_confirmation: "a" * 5 )
+=> 
+#<User:0x00000001585ef2a0
+>> user.valid?
+  User Exists? (0.5ms)  SELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?  [["email", "user1@example.com"], ["LIMIT", 1]]
+=> false
+```
+
+2. What are the associated error messages?
+
+```bash
+>> user.errors.full_messages
+=> ["Password is too short (minimum is 6 characters)"]
+```
+
+Chapter 7
+
+**7.1.2**
+
+1. Visit /about in your browser and use the debug information to determine the controller and action of the params hash.
+
+```bash
+#<ActionController::Parameters {"controller"=>"static_pages", "action"=>"about"} permitted: false>
+```
+
+2. In the Rails console, pull the first user out of the database and assign it to the variable user. What is the output of puts user.attributes.to_yaml? Compare this to using the y method via y user.attributes.
+
+```bash
+>> user = User.first
+  User Load (0.3ms)  SELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?  [["LIMIT", 1]]
+=> 
+#<User:0x000000010394bc00
+...
+>> puts user.attributes.to_yaml
+---
+id: 1
+name: dinh chien
+email: nguyendinhchienpc@example.com
+created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2023-01-04 09:32:52.137795000 Z
+  zone: &1 !ruby/object:ActiveSupport::TimeZone
+    name: Etc/UTC
+  time: 2023-01-04 09:32:52.137795000 Z
+updated_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2024-01-04 09:32:59.972820000 Z
+  zone: *1
+  time: 2024-01-04 09:32:59.972820000 Z
+password_digest:
+=> nil
+>> puts user.attributes
+{"id"=>1, "name"=>"dinh chien", "email"=>"nguyendinhchienpc@example.com", "created_at"=>Wed, 04 Jan 2023 09:32:52.137795000 UTC +00:00, "updated_at"=>Thu, 04 Jan 2024 09:32:59.972820000 UTC +00:00, "password_digest"=>ni
+```
+
+**7.1.2**
+1. Using embedded Ruby, add the created_at and updated_at “magic column” attributes to the user show page from Listing 7.4.
+
+```bash
+<%= @user.name %>, <%= @user.email %> <br>
+Created at <%= @user.created_at %>, updated last at <%= @user.updated_at %>.
+```
+
+2. Using embedded Ruby, add Time.now to the user show page. What happens when you refresh the browser?
+
+```bash
+<%= @user.name %>, <%= @user.email %> <br>
+Created at <%= @user.created_at %>, updated last at <%= @user.updated_at %>. <br>
+Current Time: <%= Time.now %>.
+```
+
+**7.1.4**
+
+1. Associate a Gravatar with your primary email address if you haven’t already. What is the MD5 hash associated with the image?
+
+```bash
+2585a7e2459ba5d513d457642135dce9
+```
+
+2. Verify that the code in Listing 7.12 allows the gravatar_for helper defined in Section 7.1.4 to take an optional size parameter, allowing code like gravatar_for user, size: 50 in the view. (We’ll put this improved helper to use in Section 10.3.1.)
+
+- The size of gravatar increase by size parameter.
+
+3. The options hash used in the previous exercise is still commonly used, but as of Ruby 2.0 we can use keyword arguments instead. Confirm that the code in Listing 7.13 can be used in place of Listing 7.12. What are the diffs between the two?
+
+- The code in listing 7.13 is confirmed to be able to be used in place of the code in listing 7.12.
+
+
+**7.1.2**
+
+1. In Listing 7.15, replace :name with :nome. What error message do you
+get as a result?
+
+```bash
+undefined method `nome' for #<User id: nil, name: nil, email: nil, created_at: nil, updated_at: nil, password_digest: nil>
+Did you mean?  name
+```
+
+2. Confirm by replacing all occurrences of f with foobar that the name of the block variable is irrelevant as far as the result is concerned. Why might foobar nevertheless be a bad choice?
+
+```bash
+foobar would be a bad choice for the block variable (currently f) because while f can me mapped to form as a good shorthand variable, foobar is simply a placeholder word that in no way relates to form.
+```
+
+**7.3.2**
+
+1. By hitting the URL /signup?admin=1, confirm that the admin attribute appears in the params debug information.
+
+```bash
+--- !ruby/object:ActionController::Parameters
+parameters: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  admin: '1'
+  controller: users
+  action: new
+permitted: false
+```
+
+**7.3.3**
+
+1. Confirm by changing the minimum length of passwords to 5 that the error message updates automatically as well.
+
+- The message will be "Password is too short (minimum is 5 characters)"
+
+2. How does the URL on the unsubmitted signup form (Figure 7.13) compare to the URL for a submitted signup form (Figure 7.19)? Why don’t they match?
+- We've pointed the signup route to users#new, but the call to render the new view from the create action results in the path being /users
+
+**7.3.4**
+
+
+```bash
+test "invalid signup information" do
+    get signup_path
+    assert_no_difference 'User.count' do
+    post users_path, params: { user: { name: "",
+                                       email: "user@invalid",
+                                       password:              "foo",
+                                       password_confirmation: "bar" } }
+    end
+    assert_template 'users/new'
+    assert_select 'div#error_explanation'
+    assert_select 'div.alert.alert-danger'
+    assert_select "li", "Name can't be blank"
+    assert_select "li", "Email is invalid"
+    assert_select "li", "Password confirmation doesn't match Password"
+    min_validation = User.validators_on(:password).find do |v|
+      v.options.key?(:minimum)
+    end
+    min_length = min_validation.options[:minimum]
+    assert_select "li", "Password is too short (minimum is #{min_length} characters)"
+  end
+```
+
+**7.4.1**
+
+1. Using the Rails console, verify that a user is in fact created when submitting valid information.
+
+```bash
+>> user = User.find(2) 
+  User Load (0.4ms)  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?  [["id", 2], ["LIMIT", 1]]
+=> 
+#<User:0x0000000132b86c98
+...
+>> user.attributes                                                         
+=> 
+{"id"=>2,
+ "name"=>"1212",
+ "email"=>"1212@gmail.com",
+ "created_at"=>Mon, 08 Jan 2024 08:39:22.054200000 UTC +00:00,
+ "updated_at"=>Mon, 08 Jan 2024 08:39:22.054200000 UTC +00:00,
+ "password_digest"=>"$2a$12$sPVPqis3AdrlVyJQGvsxr.Ue3kN5eBonzDY6DnQyJe2CsTfQNX1ya"}
+```
+
+
+2. Confirm by updating Listing 7.26 and submitting a valid user that redirect_to user_url(@user) has the same effect as redirect_to @user.
+
+- The redirect_to user_url(@user) has the same effect as redirect_to @user.
+
+**7.4.2**
+
+1. In the console, confirm that you can use interpolation (Section 4.2.2)
+to interpolate a raw symbol. For example, what is the return value of
+"#{:success}"?
+
+```bash
+>> "#{:success}"
+=> "success"
+```
+2. How does the previous exercise relate to the flash iteration shown in Listing 7.28?
+
+```bash
+%div{class: "alert alert-#{message_type}"}
+```
+
+**7.4.3**
+
+1. Using the Rails console, find by the email address to double-check that
+the new user was actually created. The result should look something like
+Listing 7.30.
+2. Create a new user with your primary email address. Verify that the Gravatar correctly appears
+
+**7.5**
+Cant deploy
+
+
+CHAPTER 8
+
+**8.1.1**
+
+1. What is the difference between GET login_path and POST login_path?
+
+- GET login_path routes to the Sessions Controller's show action and POST login_path routes to the Sessions Controller's 'create` action.
+
+2. By piping the results of rails routes to grep, list all the routes associated with the Users resource. Do the same for Sessions. How many routes does each resource have? Hint: Refer to the section on grep in Learn Enough Command Line to Be Dangerous.
+
+```bash
+$ rails routes | grep 'users#'
+          POST   /signup(.:format)         users#create
+    users GET    /users(.:format)          users#index
+ new_user GET    /users/new(.:format)      users#new
+edit_user GET    /users/:id/edit(.:format) users#edit
+     user GET    /users/:id(.:format)      users#show
+          PATCH  /users/:id(.:format)      users#update
+          PUT    /users/:id(.:format)      users#update
+          DELETE /users/:id(.:format)      users#destroy
+$ rails routes | grep 'sessions#'
+    login GET    /login(.:format)          sessions#new
+          POST   /login(.:format)          sessions#create
+   logout DELETE /logout(.:format)         sessions#destroy
+$ rails routes | grep 'users#' | wc -l
+      8
+$ rails routes | grep 'sessions#' | wc -l
+      3
+```
 

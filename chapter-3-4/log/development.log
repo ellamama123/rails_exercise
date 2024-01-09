@@ -791,3 +791,4088 @@ Migrating to AddIndexToUsersEmail (20240104095900)
   [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240104095900') RETURNING "version"[0m
   [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2024-01-08 09:22:52 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 226.1ms | Allocations: 55358)
+  Rendered layouts/_rails_default.html.erb (Duration: 1.5ms | Allocations: 505)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 108)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 282)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 211)
+  Rendered layout layouts/application.html.erb (Duration: 230.5ms | Allocations: 57451)
+Completed 200 OK in 243ms (Views: 234.3ms | ActiveRecord: 0.0ms | Allocations: 64316)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:24:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:24:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:24:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:24:22 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:24:28 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:24:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/" for 127.0.0.1 at 2024-01-08 09:41:07 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 126.0ms | Allocations: 55322)
+  Rendered layouts/_rails_default.html.erb (Duration: 5.5ms | Allocations: 2794)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 144)
+  Rendered layouts/_header.html.haml (Duration: 7.9ms | Allocations: 12687)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 227)
+  Rendered layout layouts/application.html.erb (Duration: 142.2ms | Allocations: 72261)
+Completed 200 OK in 154ms (Views: 145.2ms | ActiveRecord: 0.0ms | Allocations: 79122)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:42:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:42:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:42:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:42:22 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:42:28 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:42:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:42:40 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:42:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:42:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:42:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:43:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:43:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:43:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:43:22 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:43:28 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:43:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:43:40 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:43:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:43:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:44:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:44:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:45:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:46:22 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:46:38 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:46:38 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:46:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:47:31 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:49:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:49:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:49:14 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:50:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:51:08 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:51:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:51:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:52:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:52:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:52:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:53:08 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:53:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:53:51 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:53:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:54:28 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:54:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:54:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:54:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:54:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:55:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:56:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:56:56 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:57:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/" for ::1 at 2024-01-08 09:57:28 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1018)
+  Rendered layouts/_rails_default.html.erb (Duration: 1.5ms | Allocations: 356)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 6.1ms | Allocations: 4878)
+  Rendered layouts/_footer.html.haml (Duration: 3.5ms | Allocations: 5489)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 12658)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 13925)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:58:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:59:26 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 09:59:26 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/" for ::1 at 2024-01-08 10:00:18 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1129.4ms | Allocations: 224732)
+  Rendered layouts/_rails_default.html.erb (Duration: 10.3ms | Allocations: 2795)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 144)
+  Rendered layouts/_header.html.haml (Duration: 16.5ms | Allocations: 12494)
+  Rendered layouts/_footer.html.haml (Duration: 9.0ms | Allocations: 5498)
+  Rendered layout layouts/application.html.erb (Duration: 1170.3ms | Allocations: 246746)
+Completed 200 OK in 1193ms (Views: 1178.8ms | ActiveRecord: 0.0ms | Allocations: 253608)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:01:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:01:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:02:27 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:02:28 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/signup" for ::1 at 2024-01-08 10:02:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:02:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:02:48 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/get%20'users/new'" for ::1 at 2024-01-08 10:02:49 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/get%20'users/new'"):
+  
+Started GET "/user/new" for ::1 at 2024-01-08 10:02:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/user/new"):
+  
+Started GET "/users/new" for ::1 at 2024-01-08 10:03:01 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 156)
+  Rendered layouts/_rails_default.html.erb (Duration: 1.4ms | Allocations: 517)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 6.0ms | Allocations: 4929)
+  Rendered layouts/_footer.html.haml (Duration: 3.5ms | Allocations: 5427)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 11955)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 13221)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:03:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:03:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:03:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:03:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:04:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:04:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:04:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:04:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:04:51 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:04:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:05:32 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:05:32 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:05:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 10:05:48 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "user@example.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", "Example User"], ["email", "user@example.com"], ["created_at", "2024-01-08 03:06:21.970095"], ["updated_at", "2024-01-08 03:06:21.970095"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "USER@EXAMPLE.COM"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddPasswordDigestToUsers (20240108031753)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.5ms)[0m  [1m[35mALTER TABLE "users" ADD "password_digest" varchar[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240108031753') RETURNING "version"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "user@example.com"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "user1@example.com"], ["LIMIT", 1]]
+  [1m[36mUser Load (6.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "user@example.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (4.6ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (8.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "user1@example.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "user1@example.com"], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2024-01-08 11:25:42 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 132.9ms | Allocations: 55436)
+  Rendered layouts/_rails_default.html.erb (Duration: 5.2ms | Allocations: 2838)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 144)
+  Rendered layouts/_header.html.haml (Duration: 2.3ms | Allocations: 4826)
+  Rendered layouts/_footer.html.haml (Duration: 2.5ms | Allocations: 5438)
+  Rendered layout layouts/application.html.haml (Duration: 152.3ms | Allocations: 83394)
+Completed 200 OK in 164ms (Views: 155.4ms | ActiveRecord: 0.0ms | Allocations: 90255)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:25:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:25:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:26:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:26:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:26:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:26:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:28:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:28:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:30:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:30:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:31:28 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:31:42 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:31:42 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:31:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:32:03 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:32:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:32:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  [1m[36mUser Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/about" for 127.0.0.1 at 2024-01-08 11:35:00 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#about as */*
+  Rendering layout layouts/application.html.haml
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 282)
+  Rendered layouts/_rails_default.html.erb (Duration: 17.5ms | Allocations: 2892)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 146)
+  Rendered layouts/_header.html.haml (Duration: 3.3ms | Allocations: 4932)
+  Rendered layouts/_footer.html.haml (Duration: 2.9ms | Allocations: 5437)
+  Rendered layout layouts/application.html.haml (Duration: 34.1ms | Allocations: 28385)
+Completed 200 OK in 49ms (Views: 39.0ms | ActiveRecord: 0.0ms | Allocations: 35335)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-01-08 11:35:00 +0700
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 16)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.4ms | Allocations: 349)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_header.html.haml (Duration: 0.1ms | Allocations: 109)
+  Rendered layouts/_footer.html.haml (Duration: 0.0ms | Allocations: 46)
+  Rendered layout layouts/application.html.haml (Duration: 1.1ms | Allocations: 1370)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 1724)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:35:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:35:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/about" for 127.0.0.1 at 2024-01-08 11:35:20 +0700
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 11)
+  Rendered layouts/_rails_default.html.erb (Duration: 1.1ms | Allocations: 283)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_header.html.haml (Duration: 0.4ms | Allocations: 105)
+  Rendered layouts/_footer.html.haml (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.haml (Duration: 3.2ms | Allocations: 1293)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 1622)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:35:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:35:41 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:36:14 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:37:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:37:49 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:38:13 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:38:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 11:38:26 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:26:46 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for 127.0.0.1 at 2024-01-08 14:26:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:26:54 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 8.2ms | Allocations: 9227)
+  Rendered layouts/_rails_default.html.erb (Duration: 1.0ms | Allocations: 549)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 108)
+  Rendered layouts/_header.html.haml (Duration: 2.9ms | Allocations: 4832)
+  Rendered layouts/_footer.html.haml (Duration: 3.7ms | Allocations: 5420)
+  Rendered layout layouts/application.html.haml (Duration: 23.0ms | Allocations: 27166)
+Completed 200 OK in 29ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 30036)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:28:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:28:17 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 2.3ms | Allocations: 3785)
+  Rendered layout layouts/application.html.haml (Duration: 2.4ms | Allocations: 3881)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4939)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check = @user.name, #{@user.email}
+):
+1:    = @user.name, #{@user.email}
+  
+app/views/users/show.html.haml:2: syntax error, unexpected ';', expecting '='
+app/views/users/show.html.haml:3: syntax error, unexpected `end', expecting ')'
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:28:26 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 3.1ms | Allocations: 3418)
+  Rendered layout layouts/application.html.haml (Duration: 3.3ms | Allocations: 3503)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4557)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: = @user.name
+  
+app/views/users/show.html.haml:1
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:29:17 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:29:22 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 1.8ms | Allocations: 2039)
+  Rendered layouts/_rails_default.html.erb (Duration: 1.0ms | Allocations: 516)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 3.2ms | Allocations: 4767)
+  Rendered layouts/_footer.html.haml (Duration: 3.1ms | Allocations: 5409)
+  Rendered layout layouts/application.html.haml (Duration: 14.5ms | Allocations: 19372)
+Completed 200 OK in 66ms (Views: 16.0ms | ActiveRecord: 2.3ms | Allocations: 122284)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:29:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:29:56 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:30:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:30:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:30:21 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:32:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:32:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:32:32 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:32:44 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:33:58 +0700
+Completed 500 Internal Server Error in 425928ms (ActiveRecord: 2.0ms | Allocations: 295306)
+
+
+  
+SystemExit (exit):
+  
+(rdbg)//Users/nguyendinhchien/Desktop/project/chapter-3-4/app/controllers/users_controller.rb:1:in `exit'
+(rdbg)//Users/nguyendinhchien/Desktop/project/chapter-3-4/app/controllers/users_controller.rb:1:in `show'
+app/controllers/users_controller.rb:4:in `show'
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:39:51 +0700
+Started GET "/_next/webpack-hmr" for 127.0.0.1 at 2024-01-08 14:39:51 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 4.7ms | Allocations: 10546)
+  Rendered layouts/_rails_default.html.erb (Duration: 5.7ms | Allocations: 10336)
+  Rendered layouts/_shim.html.erb (Duration: 0.8ms | Allocations: 790)
+  Rendered layouts/_header.html.haml (Duration: 7.1ms | Allocations: 9471)
+  Rendered layouts/_footer.html.haml (Duration: 13.4ms | Allocations: 14420)
+  Rendered layout layouts/application.html.haml (Duration: 52.8ms | Allocations: 72571)
+Completed 200 OK in 72ms (Views: 56.1ms | ActiveRecord: 2.6ms | Allocations: 87197)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:39:51 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for 127.0.0.1 at 2024-01-08 14:39:51 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:39:51 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for 127.0.0.1 at 2024-01-08 14:39:51 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:39:51 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for 127.0.0.1 at 2024-01-08 14:39:51 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:40:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:40:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:40:13 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:40:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:40:20 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:40:31 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:40:32 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:41:13 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:41:13 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:41:17 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 3.0ms | Allocations: 2030)
+  Rendered layouts/_rails_default.html.erb (Duration: 1.3ms | Allocations: 511)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 3.6ms | Allocations: 4767)
+  Rendered layouts/_footer.html.haml (Duration: 4.9ms | Allocations: 5409)
+  Rendered layout layouts/application.html.haml (Duration: 20.2ms | Allocations: 19354)
+Completed 200 OK in 41ms (Views: 22.5ms | ActiveRecord: 2.2ms | Allocations: 26548)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:41:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:41:20 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:41:42 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:41:43 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 2.2ms | Allocations: 2030)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.7ms | Allocations: 523)
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 2.8ms | Allocations: 4767)
+  Rendered layouts/_footer.html.haml (Duration: 3.6ms | Allocations: 5409)
+  Rendered layout layouts/application.html.haml (Duration: 17.3ms | Allocations: 19366)
+Completed 200 OK in 31ms (Views: 18.9ms | ActiveRecord: 2.7ms | Allocations: 26610)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:41:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:41:44 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.4ms | Allocations: 290)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_header.html.haml (Duration: 0.1ms | Allocations: 89)
+  Rendered layouts/_footer.html.haml (Duration: 0.0ms | Allocations: 44)
+  Rendered layout layouts/application.html.haml (Duration: 1.2ms | Allocations: 1260)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.1ms | Allocations: 2159)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:41:45 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.5ms | Allocations: 249)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_header.html.haml (Duration: 0.2ms | Allocations: 89)
+  Rendered layouts/_footer.html.haml (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.haml (Duration: 1.8ms | Allocations: 1222)
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 2037)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:41:59 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 0.8ms | Allocations: 8)
+  Rendered layouts/_rails_default.html.erb (Duration: 1.5ms | Allocations: 266)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_header.html.haml (Duration: 1.2ms | Allocations: 89)
+  Rendered layouts/_footer.html.haml (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.haml (Duration: 5.0ms | Allocations: 1236)
+Completed 200 OK in 19ms (Views: 8.4ms | ActiveRecord: 0.9ms | Allocations: 2050)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:42:00 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.6ms | Allocations: 269)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_header.html.haml (Duration: 0.1ms | Allocations: 89)
+  Rendered layouts/_footer.html.haml (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.haml (Duration: 1.7ms | Allocations: 1239)
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 2053)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:42:14 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:42:14 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:42:15 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 5.2ms | Allocations: 2031)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.7ms | Allocations: 537)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 5.1ms | Allocations: 4767)
+  Rendered layouts/_footer.html.haml (Duration: 11.0ms | Allocations: 5409)
+  Rendered layout layouts/application.html.haml (Duration: 31.3ms | Allocations: 19383)
+Completed 200 OK in 59ms (Views: 33.7ms | ActiveRecord: 7.1ms | Allocations: 26570)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:42:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:42:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:42:21 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:42:22 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:42:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:42:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:43:36 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:43:38 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:44:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:44:13 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:44:27 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:44:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:44:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:44:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:44:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:45:59 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:46:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:46:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:46:17 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:46:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:47:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:47:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:47:17 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:47:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:47:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:47:56 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:49:17 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:49:20 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:49:23 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:49:24 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:50:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:50:14 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:50:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:50:45 +0700
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:50:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:51:29 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:51:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:51:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:52:29 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:52:32 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:53:42 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:53:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:54:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:54:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:54:14 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:54:14 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:54:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:54:40 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:54:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:55:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:55:56 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:56:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:56:40 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:56:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:56:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:57:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:57:48 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:58:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:58:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 14:59:01 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (6.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 17.8ms | Allocations: 6413)
+  Rendered layout layouts/application.html.haml (Duration: 18.0ms | Allocations: 6498)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 10.3ms | Allocations: 13201)
+
+
+  
+ActionView::Template::Error (undefined method `gravatar_for' for #<ActionView::Base:0x00000000041528>):
+    1: - provide(:title, @user.name)
+    2: %h1
+    3:   = gravatar_for @user
+    4:   = @user.name
+  
+app/views/users/show.html.haml:3
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:59:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 14:59:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:02:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:04:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:04:54 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:04:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:05:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:05:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:06:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:06:20 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:06:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:07:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:07:48 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:07:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:07:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/static/chunks/react-refresh.js?ts=1704701531190" for 127.0.0.1 at 2024-01-08 15:12:12 +0700
+Started GET "/_next/static/chunks/main.js?ts=1704701531190" for 127.0.0.1 at 2024-01-08 15:12:12 +0700
+Started GET "/_next/static/chunks/pages/_app.js?ts=1704701531190" for 127.0.0.1 at 2024-01-08 15:12:12 +0700
+Started GET "/_next/static/chunks/pages/_error.js?ts=1704701531190" for 127.0.0.1 at 2024-01-08 15:12:12 +0700
+Started GET "/_next/static/development/_buildManifest.js?ts=1704701531190" for 127.0.0.1 at 2024-01-08 15:12:12 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/_next/static/chunks/pages/_app.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_next/static/chunks/react-refresh.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_next/static/chunks/main.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_next/static/development/_buildManifest.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_next/static/chunks/pages/_error.js"):
+  
+Started GET "/_next/static/chunks/webpack.js?ts=1704701531190" for 127.0.0.1 at 2024-01-08 15:12:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/static/chunks/webpack.js"):
+  
+Started GET "/_next/static/development/_ssgManifest.js?ts=1704701531190" for 127.0.0.1 at 2024-01-08 15:12:12 +0700
+Started GET "/_next/static/chunks/main.js?ts=1704701531190" for 127.0.0.1 at 2024-01-08 15:12:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/static/development/_ssgManifest.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/_next/static/chunks/main.js"):
+  
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 15:12:22 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+Completed 500 Internal Server Error in 13939ms (ActiveRecord: 2.4ms | Allocations: 334639)
+
+
+  
+SystemExit (exit):
+  
+(rdbg)//Users/nguyendinhchien/Desktop/project/chapter-3-4/app/controllers/users_controller.rb:1:in `exit'
+(rdbg)//Users/nguyendinhchien/Desktop/project/chapter-3-4/app/controllers/users_controller.rb:1:in `show'
+app/controllers/users_controller.rb:4:in `show'
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 15:12:38 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 11.4ms | Allocations: 10252)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.9ms | Allocations: 557)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 108)
+  Rendered layouts/_header.html.haml (Duration: 2.8ms | Allocations: 4830)
+  Rendered layouts/_footer.html.haml (Duration: 3.5ms | Allocations: 5420)
+  Rendered layout layouts/application.html.haml (Duration: 24.4ms | Allocations: 28042)
+Completed 200 OK in 35ms (Views: 26.7ms | ActiveRecord: 2.1ms | Allocations: 35470)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:13:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:13:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:13:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:13:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = ?, "password_digest" = ? WHERE "users"."id" = ?[0m  [["updated_at", "2024-01-08 08:14:21.392230"], ["password_digest", "[FILTERED]"], ["id", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:14:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:14:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:14:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:14:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:14:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:15:03 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:15:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:15:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:15:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 15:15:12 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 3.0ms | Allocations: 3524)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.6ms | Allocations: 527)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 113)
+  Rendered layouts/_header.html.haml (Duration: 2.9ms | Allocations: 4832)
+  Rendered layouts/_footer.html.haml (Duration: 3.0ms | Allocations: 5481)
+  Rendered layout layouts/application.html.haml (Duration: 15.0ms | Allocations: 21059)
+Completed 200 OK in 26ms (Views: 16.7ms | ActiveRecord: 1.6ms | Allocations: 28262)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:15:38 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:15:38 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:15:42 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:15:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:16:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:16:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:16:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:16:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:16:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:16:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:17:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:17:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:19:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:19:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:19:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:19:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:19:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:19:38 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:20:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:20:20 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:20:29 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:20:31 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:20:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:21:26 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:22:29 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:22:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 15:22:42 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (4.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 3.2ms | Allocations: 3458)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.7ms | Allocations: 509)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 3.5ms | Allocations: 4766)
+  Rendered layouts/_footer.html.haml (Duration: 3.5ms | Allocations: 5409)
+  Rendered layout layouts/application.html.haml (Duration: 17.3ms | Allocations: 20765)
+Completed 200 OK in 33ms (Views: 18.8ms | ActiveRecord: 8.1ms | Allocations: 27531)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:22:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:22:49 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:22:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 15:22:56 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 2.6ms | Allocations: 3456)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.7ms | Allocations: 515)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 2.4ms | Allocations: 4766)
+  Rendered layouts/_footer.html.haml (Duration: 3.0ms | Allocations: 5409)
+  Rendered layout layouts/application.html.haml (Duration: 14.4ms | Allocations: 20766)
+Completed 200 OK in 26ms (Views: 16.1ms | ActiveRecord: 2.2ms | Allocations: 27965)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:24:51 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:24:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:26:23 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:26:23 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:26:51 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:26:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:26:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:27:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:28:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:28:08 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/new" for 127.0.0.1 at 2024-01-08 15:29:17 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (Duration: 16.3ms | Allocations: 8436)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.6ms | Allocations: 229)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 4.4ms | Allocations: 4737)
+  Rendered layouts/_footer.html.haml (Duration: 3.5ms | Allocations: 5409)
+  Rendered layout layouts/application.html.haml (Duration: 45.9ms | Allocations: 25593)
+Completed 200 OK in 56ms (Views: 48.1ms | ActiveRecord: 0.0ms | Allocations: 30839)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:29:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:29:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/new" for 127.0.0.1 at 2024-01-08 15:29:39 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (Duration: 9.6ms | Allocations: 9367)
+  Rendered layout layouts/application.html.haml (Duration: 9.8ms | Allocations: 9452)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 2.0ms | Allocations: 15352)
+
+
+  
+ActionView::Template::Error (undefined method `nome' for #<User id: nil, name: nil, email: nil, created_at: nil, updated_at: nil, password_digest: nil>
+Did you mean?  name):
+    4:   .col-md-6.col-md-offset-3
+    5:     = form_for(@user) do |f|
+    6:       = f.label :nome
+    7:       = f.text_field :nome
+    8:       = f.label :email
+    9:       = f.email_field :email
+   10:       = f.label :password
+  
+app/views/users/new.html.haml:7
+app/views/users/new.html.haml:5
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:30:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:30:14 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:30:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:30:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/new" for 127.0.0.1 at 2024-01-08 15:31:07 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (Duration: 5.9ms | Allocations: 6854)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.4ms | Allocations: 229)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 2.7ms | Allocations: 4720)
+  Rendered layouts/_footer.html.haml (Duration: 3.2ms | Allocations: 5409)
+  Rendered layout layouts/application.html.haml (Duration: 18.5ms | Allocations: 23838)
+Completed 200 OK in 28ms (Views: 20.0ms | ActiveRecord: 1.5ms | Allocations: 29804)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:31:42 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:31:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:31:54 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:32:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:32:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:32:42 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:34:23 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:34:25 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:34:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:35:03 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:35:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started POST "/users" for 127.0.0.1 at 2024-01-08 15:35:35 +0700
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for UsersController):
+  
+actionpack (7.1.2) lib/abstract_controller/base.rb:155:in `process'
+actionview (7.1.2) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.2) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.2) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.8) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.8) lib/rack/etag.rb:29:in `call'
+rack (3.0.8) lib/rack/conditional_get.rb:43:in `call'
+rack (3.0.8) lib/rack/head.rb:15:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.2) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.2) lib/active_record/migration.rb:654:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.8) lib/rack/method_override.rb:28:in `call'
+rack (3.0.8) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.2) lib/rails/engine.rb:529:in `call'
+puma (6.4.1) lib/puma/configuration.rb:272:in `call'
+puma (6.4.1) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.1) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.1) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.1) lib/puma/server.rb:464:in `process_client'
+puma (6.4.1) lib/puma/server.rb:245:in `block in run'
+puma (6.4.1) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:35:56 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:36:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:36:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started POST "/users" for 127.0.0.1 at 2024-01-08 15:37:20 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"1212", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 4813)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/users_controller.rb:11:in `create'
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:38:49 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:38:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started POST "/users" for 127.0.0.1 at 2024-01-08 15:39:02 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"1212", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 9.9ms | Allocations: 5507)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/users_controller.rb:11:in `create'
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:39:03 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:39:09 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started POST "/users" for 127.0.0.1 at 2024-01-08 15:39:21 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"1212", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "1212"], ["email", "1212@gmail.com"], ["created_at", "2024-01-08 08:39:22.054200"], ["updated_at", "2024-01-08 08:39:22.054200"], ["password_digest", "[FILTERED]"]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+No template found for UsersController#create, rendering head :no_content
+Completed 204 No Content in 419ms (ActiveRecord: 5.2ms | Allocations: 10269)
+
+
+Started POST "/users" for 127.0.0.1 at 2024-01-08 15:39:27 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"1212", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (Duration: 6.4ms | Allocations: 7165)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.4ms | Allocations: 229)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 2.8ms | Allocations: 4723)
+  Rendered layouts/_footer.html.haml (Duration: 3.3ms | Allocations: 5409)
+  Rendered layout layouts/application.html.haml (Duration: 19.2ms | Allocations: 24167)
+Completed 200 OK in 432ms (Views: 22.8ms | ActiveRecord: 2.7ms | Allocations: 33701)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:40:24 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:40:25 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:40:54 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:40:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:41:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:41:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:41:24 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:41:26 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:41:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:41:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:41:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:41:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:42:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:42:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:42:13 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:42:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:42:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:42:25 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:42:26 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:42:29 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:42:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/signup?admin=1" for 127.0.0.1 at 2024-01-08 15:42:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:42:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:42:56 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:43:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:43:08 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:44:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:44:56 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:45:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:45:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:45:21 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:45:22 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:45:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:47:15 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:48:31 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:48:32 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:49:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:49:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:49:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:51:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:51:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:51:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:51:29 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:51:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:53:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:54:20 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:54:28 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:54:36 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:54:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:54:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:54:54 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:55:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:55:42 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:55:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:56:15 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:56:48 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:57:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:57:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:58:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:58:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:58:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:58:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:58:36 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:59:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:59:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:59:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  [1m[36mUser Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:59:38 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:59:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:59:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 15:59:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:00:03 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:00:03 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:00:09 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:00:09 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:00:40 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:00:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:01:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:01:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:01:17 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:01:25 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:01:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:01:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:01:41 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:01:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:01:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:01:48 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:01:59 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:02:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:02:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:02:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:02:14 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:02:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:02:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:02:28 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:02:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:02:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:02:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:03:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:03:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:03:54 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:03:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:04:09 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:04:15 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:04:21 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:04:27 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:05:22 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:05:24 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:05:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:05:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:05:42 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:05:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:05:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:05:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:06:17 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:06:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:06:23 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:06:29 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:06:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:06:48 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:06:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:08:15 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:08:15 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:08:21 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:08:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:09:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:09:31 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:09:32 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:09:45 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"1212", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (2.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (Duration: 13.3ms | Allocations: 8074)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.5ms | Allocations: 229)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 5.0ms | Allocations: 4723)
+  Rendered layouts/_footer.html.haml (Duration: 4.0ms | Allocations: 5409)
+  Rendered layout layouts/application.html.haml (Duration: 30.8ms | Allocations: 25074)
+Completed 200 OK in 70ms (Views: 34.7ms | ActiveRecord: 6.6ms | Allocations: 34477)
+
+
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:09:48 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"1212", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (Duration: 3.5ms | Allocations: 2216)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.1ms | Allocations: 68)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.haml (Duration: 0.2ms | Allocations: 83)
+  Rendered layouts/_footer.html.haml (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.haml (Duration: 4.8ms | Allocations: 3192)
+Completed 200 OK in 15ms (Views: 5.6ms | ActiveRecord: 2.1ms | Allocations: 6526)
+
+
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:09:49 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"1212", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (Duration: 4.0ms | Allocations: 2216)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.2ms | Allocations: 68)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.haml (Duration: 0.2ms | Allocations: 83)
+  Rendered layouts/_footer.html.haml (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.haml (Duration: 5.4ms | Allocations: 3195)
+Completed 200 OK in 13ms (Views: 6.2ms | ActiveRecord: 1.7ms | Allocations: 6278)
+
+
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:09:50 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"1212", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (Duration: 4.0ms | Allocations: 2215)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.2ms | Allocations: 68)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.haml (Duration: 0.1ms | Allocations: 83)
+  Rendered layouts/_footer.html.haml (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.haml (Duration: 6.8ms | Allocations: 3191)
+Completed 200 OK in 13ms (Views: 7.3ms | ActiveRecord: 1.9ms | Allocations: 6285)
+
+
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:09:51 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"1212", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (Duration: 3.4ms | Allocations: 2216)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.1ms | Allocations: 68)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.haml (Duration: 0.1ms | Allocations: 83)
+  Rendered layouts/_footer.html.haml (Duration: 0.0ms | Allocations: 47)
+  Rendered layout layouts/application.html.haml (Duration: 4.3ms | Allocations: 3192)
+Completed 200 OK in 12ms (Views: 4.8ms | ActiveRecord: 1.5ms | Allocations: 6260)
+
+
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:09:52 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"1212", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (Duration: 3.3ms | Allocations: 2216)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.1ms | Allocations: 68)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.haml (Duration: 0.7ms | Allocations: 83)
+  Rendered layouts/_footer.html.haml (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.haml (Duration: 5.3ms | Allocations: 3192)
+Completed 200 OK in 11ms (Views: 5.8ms | ActiveRecord: 1.4ms | Allocations: 6268)
+
+
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:09:55 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (Duration: 4.1ms | Allocations: 2707)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.1ms | Allocations: 68)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.haml (Duration: 0.2ms | Allocations: 83)
+  Rendered layouts/_footer.html.haml (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.haml (Duration: 6.0ms | Allocations: 3683)
+Completed 200 OK in 15ms (Views: 6.6ms | ActiveRecord: 2.0ms | Allocations: 6769)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:10:03 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:10:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:11:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:11:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:11:40 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:11:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:11:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:11:51 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (Duration: 7.6ms | Allocations: 7830)
+  Rendered layout layouts/application.html.haml (Duration: 7.7ms | Allocations: 7915)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 4.4ms | Allocations: 17360)
+
+
+  
+ActionView::Template::Error (Missing partial shared/__error_messages with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :haml, :jbuilder]}.
+
+Searched in:
+  * "/Users/nguyendinhchien/Desktop/project/chapter-3-4/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/turbo-rails-1.5.0/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/actiontext-7.1.2/app/views"
+  * "/Users/nguyendinhchien/.gem/ruby/3.0.6/gems/actionmailbox-7.1.2/app/views"
+
+Did you mean?  shared/error_messages
+               action_text/attachables/remote_image
+               action_text/attachables/missing_attachable
+               action_text/attachables/content_attachment
+               active_storage/blobs/blob
+               layouts/footer):
+    2: %h1 Sign up
+    3: .row
+    4:   .col-md-6.col-md-offset-3
+    5:     = render 'shared/_error_messages'
+    6:     = form_for(@user) do |f|
+    7:       = f.label :name
+    8:       = f.text_field :name
+  
+app/views/users/new.html.haml:5
+app/controllers/users_controller.rb:15:in `create'
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:11:58 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered shared/_error_messages.html.haml (Duration: 5.3ms | Allocations: 5222)
+  Rendered users/new.html.haml within layouts/application (Duration: 15.0ms | Allocations: 14073)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.4ms | Allocations: 233)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 113)
+  Rendered layouts/_header.html.haml (Duration: 3.0ms | Allocations: 4789)
+  Rendered layouts/_footer.html.haml (Duration: 3.6ms | Allocations: 5479)
+  Rendered layout layouts/application.html.haml (Duration: 27.7ms | Allocations: 31272)
+Completed 200 OK in 52ms (Views: 31.0ms | ActiveRecord: 4.1ms | Allocations: 40821)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:12:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:12:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:12:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:13:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:13:23 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:13:25 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:13:31 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:13:31 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:14:09 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:14:15 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:14:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:14:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:14:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:14:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:15:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:15:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:15:36 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:15:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:15:41 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:15:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:15:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:16:21 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:16:27 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:17:40 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:17:42 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:17:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:17:54 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:18:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:18:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:18:23 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:18:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:18:42 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:18:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:18:54 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:19:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:19:40 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:19:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:20:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:20:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:22:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:22:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:23:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:23:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:23:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:23:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:24:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:24:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:24:13 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:24:27 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:25:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:25:17 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:25:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:25:36 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered shared/_error_messages.html.haml (Duration: 4.8ms | Allocations: 5085)
+  Rendered users/new.html.haml within layouts/application (Duration: 14.8ms | Allocations: 13875)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.5ms | Allocations: 227)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 4.2ms | Allocations: 4723)
+  Rendered layouts/_footer.html.haml (Duration: 3.5ms | Allocations: 5407)
+  Rendered layout layouts/application.html.haml (Duration: 32.8ms | Allocations: 32068)
+Completed 200 OK in 64ms (Views: 35.4ms | ActiveRecord: 9.9ms | Allocations: 41538)
+
+
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:25:39 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered shared/_error_messages.html.haml (Duration: 2.0ms | Allocations: 1260)
+  Rendered users/new.html.haml within layouts/application (Duration: 5.8ms | Allocations: 3998)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.haml (Duration: 0.2ms | Allocations: 83)
+  Rendered layouts/_footer.html.haml (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.haml (Duration: 7.2ms | Allocations: 4987)
+Completed 200 OK in 14ms (Views: 7.7ms | ActiveRecord: 1.3ms | Allocations: 8332)
+
+
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:25:40 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "email"=>"1212@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1212@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered shared/_error_messages.html.haml (Duration: 2.2ms | Allocations: 1260)
+  Rendered users/new.html.haml within layouts/application (Duration: 5.8ms | Allocations: 3998)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.haml (Duration: 0.1ms | Allocations: 83)
+  Rendered layouts/_footer.html.haml (Duration: 0.0ms | Allocations: 47)
+  Rendered layout layouts/application.html.haml (Duration: 6.9ms | Allocations: 4987)
+Completed 200 OK in 13ms (Views: 7.6ms | ActiveRecord: 1.9ms | Allocations: 8066)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:25:41 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:25:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:25:48 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"test", "email"=>"12312@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "12312@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "test"], ["email", "12312@gmail.com"], ["created_at", "2024-01-08 09:25:49.412542"], ["updated_at", "2024-01-08 09:25:49.412542"], ["password_digest", "[FILTERED]"]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+Redirected to http://127.0.0.1:3000/users/3
+Completed 302 Found in 409ms (ActiveRecord: 3.3ms | Allocations: 3554)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2024-01-08 16:25:49 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 4.3ms | Allocations: 3322)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.4ms | Allocations: 282)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.haml (Duration: 0.2ms | Allocations: 99)
+  Rendered layouts/_footer.html.haml (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.haml (Duration: 5.8ms | Allocations: 4499)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.1ms | Allocations: 6028)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:26:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:27:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:27:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:27:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:27:41 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:27:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:27:49 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:28:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:28:51 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:28:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:28:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:29:23 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:29:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:29:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:29:40 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:29:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:30:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:30:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:30:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:30:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:30:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:30:27 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:30:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:30:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:30:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:31:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:31:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:32:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:32:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:32:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:32:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:32:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:32:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:32:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:33:22 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:33:49 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:33:49 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:34:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (6.8ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::InternalMetadata Create (9.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('environment', 'development', '2024-01-08 09:34:04.988868', '2024-01-08 09:34:04.988871') RETURNING "key"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20240104085015)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240104085015') RETURNING "version"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddIndexToUsersEmail (20240104095900)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240104095900') RETURNING "version"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddPasswordDigestToUsers (20240108031753)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "users" ADD "password_digest" varchar[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240108031753') RETURNING "version"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:34:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:34:13 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/users/new" for 127.0.0.1 at 2024-01-08 16:34:32 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered shared/_error_messages.html.haml (Duration: 7.9ms | Allocations: 3778)
+  Rendered users/new.html.haml within layouts/application (Duration: 25.1ms | Allocations: 11037)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.5ms | Allocations: 226)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_header.html.haml (Duration: 8.1ms | Allocations: 4720)
+  Rendered layouts/_footer.html.haml (Duration: 6.6ms | Allocations: 5407)
+  Rendered layout layouts/application.html.haml (Duration: 64.8ms | Allocations: 29169)
+Completed 200 OK in 83ms (Views: 70.7ms | ActiveRecord: 0.0ms | Allocations: 34344)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:34:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:34:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:34:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started POST "/users" for 127.0.0.1 at 2024-01-08 16:34:43 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"test", "email"=>"nguyendinhchienpc@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (4.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "nguyendinhchienpc@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "test"], ["email", "nguyendinhchienpc@gmail.com"], ["created_at", "2024-01-08 09:34:43.832603"], ["updated_at", "2024-01-08 09:34:43.832603"], ["password_digest", "[FILTERED]"]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+Redirected to http://127.0.0.1:3000/users/1
+Completed 302 Found in 414ms (ActiveRecord: 5.9ms | Allocations: 4404)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2024-01-08 16:34:43 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 3.9ms | Allocations: 3393)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.4ms | Allocations: 285)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_header.html.haml (Duration: 0.2ms | Allocations: 89)
+  Rendered layouts/_footer.html.haml (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.haml (Duration: 5.5ms | Allocations: 4552)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.1ms | Allocations: 6091)
+
+
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:35:03 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:35:03 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:35:23 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:35:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:35:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:35:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:35:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:35:48 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:35:59 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:36:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "nguyendinhchienpc@gmail.com"], ["LIMIT", 1]]
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:36:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:36:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:53:20 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 16:53:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:05:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:05:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:05:42 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:06:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:06:03 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:06:24 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:06:25 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:06:36 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:06:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:06:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:07:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:07:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:07:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:08:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:09:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:09:36 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:09:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:10:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:10:24 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:10:25 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:11:20 +0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:7:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:11:20 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:11:42 +0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:7:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:11:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:12:43 +0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:7:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:13:08 +0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:7:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:14:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:14:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:14:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:14:17 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:14:29 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:14:31 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:15:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:15:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:15:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:16:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:16:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:17:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:17:20 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:17:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:17:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:18:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:19:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:19:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:19:25 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:19:26 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:19:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:19:38 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:19:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:19:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:19:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:20:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:20:32 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:20:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:20:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:21:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:21:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:21:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:21:14 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:21:24 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:21:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:22:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:22:13 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:23:23 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:24:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:24:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:24:54 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:24:54 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:25:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:25:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:26:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:26:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:26:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:26:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:26:49 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:26:49 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:27:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:27:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:27:08 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:27:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:27:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:27:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:28:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:28:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:29:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:29:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:29:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:29:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:30:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:31:03 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:31:14 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:31:15 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:31:25 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:31:26 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:31:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:31:38 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:31:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:32:31 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:32:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:33:08 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:33:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:36:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:36:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:36:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:36:56 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:37:24 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:37:26 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:37:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:38:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:39:20 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:39:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:40:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:41:52 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:43:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:43:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:43:59 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:44:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 17:49:49 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 18:07:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 19:29:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 20:21:59 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 20:21:59 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 20:39:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-08 23:49:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 01:43:15 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 01:43:15 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 03:56:17 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 07:01:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 07:01:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:47:36 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:47:37 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:48:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:48:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:48:08 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:49:54 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:49:59 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:50:27 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:50:28 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:50:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:50:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:51:24 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:52:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:52:02 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:52:08 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:52:46 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:52:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:52:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:53:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:53:22 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:53:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:54:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:54:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:54:08 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:54:54 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:54:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:55:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:55:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:55:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:55:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:56:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:56:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:56:35 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:56:41 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:56:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:57:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:57:22 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:58:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:58:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:59:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:59:22 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:59:25 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:59:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:59:48 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 08:59:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:00:08 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:00:08 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:00:14 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:00:26 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:00:26 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:00:38 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:00:38 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:00:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:00:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:01:09 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:01:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:01:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:02:32 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:03:36 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:03:36 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:03:39 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:03:41 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:03:48 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:04:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:05:42 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:05:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:05:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:06:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:06:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:06:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:06:32 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:06:38 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:06:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:06:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:06:56 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:06:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:07:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:07:17 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:08:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:08:16 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:08:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:08:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:08:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:09:15 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:09:17 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:10:01 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:10:03 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:10:05 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:10:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:10:20 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:10:20 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:10:26 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
+Started GET "/_next/webpack-hmr" for ::1 at 2024-01-09 09:10:32 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/_next/webpack-hmr"):
+  
