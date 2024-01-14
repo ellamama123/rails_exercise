@@ -9,6 +9,8 @@ gem "rails", "~> 7.1.2"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+gem 'faker', '~> 3.2', '>= 3.2.2'
+
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
@@ -48,7 +50,13 @@ gem 'haml'
 
 gem 'bcrypt', '3.1.13'
 
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'bootstrap', '~> 5.1.3'
+
+gem 'sass-rails', '~> 5.0'
+
+gem 'will_paginate', '3.3.0'
+
+gem 'bootstrap-will_paginate', '1.0.0'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"

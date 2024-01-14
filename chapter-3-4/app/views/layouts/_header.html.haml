@@ -1,9 +1,27 @@
-%body
-  %header.navbar.navbar-fixed-top.navbar-inverse
-    .container
-      = link_to "sample app", root_path, id: "logo"
-      %nav
-        %ul.nav.navbar-nav.navbar-right
-          %li= link_to "Home", root_path
-          %li= link_to "Help", helf_path
-          %li= link_to "Log in", '#'
+%nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  %a.navbar-brand{href: "#"} Navbar
+  %button.navbar-toggler{"aria-controls" => "navbarNav", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarNav", "data-toggle" => "collapse", type: "button"}
+    %span.navbar-toggler-icon
+  #navbarNav.collapse.navbar-collapse
+    %ul.navbar-nav
+      %li.nav-item.active
+        %a.nav-link{href: "#"}
+          Home
+          %span.sr-only (current)
+      %li.nav-item
+        %a.nav-link{href: "#"} Features
+      - if logged_in?
+        %li= link_to "Users", '#'
+        %li.dropdown
+          %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+            Account
+            %b.caret
+          %ul.dropdown-menu
+            %li= link_to "Profile", current_user
+            %li= link_to "Users", users_path
+            %li= link_to "Settings", edit_user_path(current_user)
+            %li.divider
+            %li
+              = button_to "Log out", logout_path, method: :delete, remote: true
+      - else
+        %li= link_to "Log in", login_path
